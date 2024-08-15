@@ -5,7 +5,7 @@ import Hero from "./Components/Hero";
 
 function App() {
   return (
-    <div className="max-w-screen-lg w-11/12 mx-auto">
+    <div className="max-w-screen-xl w-11/12 mx-auto">
       <TopActions />
       <Hero />
       <Navbar />

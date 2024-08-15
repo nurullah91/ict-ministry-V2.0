@@ -1,11 +1,13 @@
 import React from "react";
+import HomeSidebar from "./HomeSidebar";
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-center font-bold my-5">
-        ICT Ministry, Bangladesh
-      </h1>
+    <div className="flex">
+      <div className="w-3/4 bg-green-300"></div>
+      <div className="w-1/4 bg-red-300">
+        <HomeSidebar />
+      </div>
     </div>
   );
 };
