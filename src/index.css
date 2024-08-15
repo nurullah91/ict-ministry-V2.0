@@ -13,3 +13,15 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.notice {
+  background: linear-gradient(
+      rgba(204, 243, 173, 0.807),
+      rgba(240, 172, 172, 0.892),
+      rgba(191, 235, 156, 0.807)
+    ),
+    url(./assets/bell.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

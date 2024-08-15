@@ -265,7 +265,7 @@ const Navbar = () => {
       >
         <div>
           <Link to="/">
-            <FaHome className="text-3xl text-red-600" />
+            <FaHome className="text-3xl text-red-500" />
           </Link>
         </div>
         {navItems.map((item, index) => (

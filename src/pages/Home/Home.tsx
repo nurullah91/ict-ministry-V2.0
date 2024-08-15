@@ -1,11 +1,14 @@
 import React from "react";
 import HomeSidebar from "./HomeSidebar";
+import NoticeBoard from "./NoticeBoard";
 
 const Home: React.FC = () => {
   return (
     <div className="flex">
-      <div className="w-3/4 bg-green-300"></div>
-      <div className="w-1/4 bg-red-300">
+      <div className="w-3/4 ">
+        <NoticeBoard />
+      </div>
+      <div className="w-1/4 ">
         <HomeSidebar />
       </div>
     </div>
