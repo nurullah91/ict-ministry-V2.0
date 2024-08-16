@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./Components/Shared/Navbar";
 import TopActions from "./Components/TopActions";
 import Hero from "./Components/Hero";
+import Footer from "./Components/Shared/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   );
 }

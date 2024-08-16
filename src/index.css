@@ -25,3 +25,7 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.sidebarTitle {
+  @apply font-bold bg-gradient-to-r from-green-200 via-green-200 to-red-200 py-3 px-2;
+}
