@@ -1,50 +1,14 @@
-# React + TypeScript + Vite
+# Project ICT Ministry V2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a redesigned project of Bangladesh ICT ministry. [Main website link](https://ictd.gov.bd/)
 
-Currently, two official plugins are available:
+I redesigned this project with TypeScript, React js + vite, Tailwind CSS, and many more.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Local Installation guideline
 
-## Expanding the ESLint configuration
+To run this project in you machine, First clone this repository and give the command in your terminal then it will run on the localhost 5073 port.
+` npm install`
+`npm run dev`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+> - Here is a overview video of the project [link](https://drive.google.com/file/d/1T46DJMAmAysbJXLRTzgO-RsjcqqXPh4v/view?usp=sharing)
+> - Here is the live link of the project [link](https://ict-ministry-v2.netlify.app/)
