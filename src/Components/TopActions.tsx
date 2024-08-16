@@ -2,7 +2,7 @@ import React from "react";
 
 const TopActions: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center bg-gradient-to-r from-green-500 via-red-500 to-green-500 px-3 py-2 ">
+    <div className="flex flex-col md:flex-row justify-between items-center bg-gradient-to-br from-green-200 via-green-200 to-red-200 px-3 py-2 ">
       <div className="flex gap-2 items-center">
         <small>বাংলাদেশ জাতীয় তথ্য বাতায়ন</small>
         <select

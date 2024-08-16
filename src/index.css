@@ -4,9 +4,10 @@
 
 .hero-section {
   background: linear-gradient(
-      rgba(30, 65, 1, 0.873),
-      rgba(211, 3, 3, 0.719),
-      rgba(30, 65, 1, 0.873)
+      to bottom right,
+      rgba(148, 246, 182, 0.581),
+      rgba(148, 246, 182, 0.581),
+      rgba(244, 108, 108, 0.751)
     ),
     url(./assets/wide-logo.svg);
   background-position: center;
@@ -16,9 +17,10 @@
 
 .notice {
   background: linear-gradient(
-      rgba(204, 243, 173, 0.807),
-      rgba(240, 172, 172, 0.892),
-      rgba(191, 235, 156, 0.807)
+      to bottom right,
+      rgba(148, 246, 182, 0.581),
+      rgba(148, 246, 182, 0.581),
+      rgba(244, 108, 108, 0.751)
     ),
     url(./assets/bell.png);
   background-position: center;
@@ -30,6 +32,9 @@
   @apply font-bold bg-gradient-to-r from-green-200 via-green-200 to-red-200 py-3 px-2;
 }
 
-.items:hover .div {
+.items:hover .link-line {
   width: 150px;
+}
+.nav-title:hover .title-line {
+  width: 100px;
 }

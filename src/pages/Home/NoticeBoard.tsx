@@ -5,7 +5,7 @@ const NoticeBoard: React.FC = () => {
   return (
     <div className="notice px-4 py-2">
       <h2 className="text-2xl">নোটিশ বোর্ড</h2>
-      <div className="ml-4 lg:ml-8">
+      <div className="ml-4 lg:ml-8 ">
         <div className="flex my-2 hover:underline items-center">
           <FaHandPointRight className="text-green-600 font-bold text-2xl mr-2" />
           <Link to={"/"}>
