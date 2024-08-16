@@ -238,9 +238,9 @@ const Navbar = () => {
       ],
     },
   ];
-  console.log(open);
+
   return (
-    <div>
+    <div className="bg-green-200 border border-orange-400">
       <div className="lg:hidden block" onClick={() => setOpen(!open)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -273,14 +273,19 @@ const Navbar = () => {
             <li>
               <Link to={item.path}>{item.name}</Link>
             </li>
-            <div className="absolute top-5 z-10">
+            <div
+              className={`absolute lg:top-5 top-0 z-10 lg:left-0 left-28 w-[250px] lg:w-[500px] shadow-lg bg-red-500/20 backdrop-blur-md grid  ${
+                item.children.length > 4 ? "grid-cols-2" : "grid-cols-1"
+              }`}
+            >
               {item.children?.map((child, index) => (
                 <ul
                   key={index}
-                  className="hidden group-hover:block  bg-green-200 px-4 py-3 w-[250px]"
+                  className="hidden group-hover:block px-2 py-1 w-full divide-x-2"
                 >
-                  <li>
+                  <li className="px-2 py-2 rounded items">
                     <Link to={child.path}>{child.name}</Link>
+                    <div className="div w-0 h-[3px] bg-green-600 transition-all duration-500"></div>
                   </li>
                 </ul>
               ))}
