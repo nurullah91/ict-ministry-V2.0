@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero-section {
-  background: linear-gradient(
-      to bottom right,
-      rgba(148, 246, 182, 0.581),
-      rgba(148, 246, 182, 0.581),
-      rgba(244, 108, 108, 0.751)
-    ),
-    url(./assets/wide-logo.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .notice {
   background: linear-gradient(
       to bottom right,

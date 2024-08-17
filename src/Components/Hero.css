@@ -12,3 +12,20 @@
   display: block;
   width: 100%;
 }
+
+.hero-section {
+  background: linear-gradient(
+      to bottom right,
+      rgba(79, 135, 99, 0.385),
+      rgba(74, 136, 96, 0.455),
+      rgba(244, 108, 108, 0.751)
+    ),
+    url(../assets/wide-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.heroTitle {
+  text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333,
+    1px 1px 10px #333;
+}

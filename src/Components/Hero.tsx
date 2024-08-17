@@ -23,10 +23,30 @@ const Hero: React.FC = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={banner1} />
+          <div className="relative">
+            <img src={banner1} />
+            <div className="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center hero-section">
+              <h1 className="text-3xl font-bold text-white heroTitle ">
+                তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ
+              </h1>
+              <h1 className="text-2xl font-semibold text-red-500 heroTitle">
+                গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+              </h1>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={banner2} />
+          <div className="relative">
+            <img src={banner2} />
+            <div className="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center hero-section">
+              <h1 className="text-3xl font-bold text-white heroTitle ">
+                তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ
+              </h1>
+              <h1 className="text-2xl font-semibold text-red-500 heroTitle">
+                গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+              </h1>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
