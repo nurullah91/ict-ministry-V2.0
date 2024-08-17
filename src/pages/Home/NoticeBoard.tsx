@@ -9,7 +9,7 @@ const NoticeBoard: React.FC = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="600"
-          className="flex my-2 hover:underline items-center"
+          className="flex my-2 hover:underline items-center hover:text-red-600"
         >
           <FaHandPointRight className="text-green-600 font-bold text-2xl mr-2" />
           <Link to={"/"}>
@@ -20,7 +20,7 @@ const NoticeBoard: React.FC = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="700"
-          className="flex my-2 hover:underline items-center"
+          className="flex my-2 hover:underline items-center hover:text-red-600"
         >
           <FaHandPointRight className="text-green-600 font-bold text-2xl mr-2" />
           <Link to={"/"}>অফিস আদেশ (দায়িত্ব বণ্টন)</Link>
@@ -28,7 +28,7 @@ const NoticeBoard: React.FC = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="800"
-          className="flex my-2 hover:underline items-center"
+          className="flex my-2 hover:underline items-center hover:text-red-600"
         >
           <FaHandPointRight className="text-green-600 font-bold text-2xl mr-2" />
           <Link to={"/"}>২০২৪-২০২৫ অর্থবছরের বিজ্ঞপ্তি</Link>
@@ -36,7 +36,7 @@ const NoticeBoard: React.FC = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
-          className="flex my-2 hover:underline items-center"
+          className="flex my-2 hover:underline items-center hover:text-red-600"
         >
           <FaHandPointRight className="text-green-600 font-bold text-2xl mr-2" />
           <Link to={"/"}>
@@ -47,7 +47,7 @@ const NoticeBoard: React.FC = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="1200"
-          className="flex my-2 hover:underline items-center"
+          className="flex my-2 hover:underline items-center hover:text-red-600"
         >
           <FaHandPointRight className="text-green-600 font-bold text-2xl mr-2" />
           <Link to={"/"}>
