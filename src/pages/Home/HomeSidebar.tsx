@@ -27,7 +27,7 @@ const HomeSidebar: React.FC = () => {
             <p>জনাব মোঃ নাহিদ ইসলাম</p>
             <p className="font-bold">মাননীয় উপদেষ্টা</p>
             <Link to="">
-              <button className="btn opacity-0 group-hover:opacity-100">
+              <button className="btn btn-sm opacity-0 group-hover:opacity-100 myPrimaryBtn ">
                 বিস্তারিত দেখুন
               </button>
             </Link>
@@ -40,7 +40,7 @@ const HomeSidebar: React.FC = () => {
             <p>জনাব মোঃ সামসুল আরেফিন</p>
             <p className="font-bold">সচিব</p>
             <Link to={"/"}>
-              <button className="btn opacity-0 group-hover:opacity-100">
+              <button className="btn btn-sm myPrimaryBtn opacity-0 group-hover:opacity-100">
                 বিস্তারিত দেখুন
               </button>
             </Link>
@@ -98,9 +98,7 @@ const HomeSidebar: React.FC = () => {
               ওয়ান স্টপ সার্ভিস (বাংলাদেশ হাইটেক পার্ক কর্তৃপক্ষ)
             </Link>
           </p>
-          <button className="w-full border-2 border-red-500 py-1 rounded hover:bg-green-400 font-bold hover:text-white transition-all duration-300">
-            সকল
-          </button>
+          <button className="w-full py-1 mySecondaryBtn">সকল</button>
         </div>
         <div className="mb-4">
           <h5 className="sidebarTitle">গুরুত্বপূর্ণ লিংক</h5>
@@ -133,9 +131,7 @@ const HomeSidebar: React.FC = () => {
             <RiVerifiedBadgeFill className="text-green-600" />
             <Link to={""}>জাতীয় পোর্টাল</Link>
           </p>
-          <button className="w-full border-2 border-red-500 py-1 rounded hover:bg-green-400 font-bold hover:text-white transition-all duration-300">
-            সকল লিংক
-          </button>
+          <button className="w-full py-1 mySecondaryBtn">সকল লিংক</button>
         </div>
         <div className="my-4">
           <h5 className="sidebarTitle">

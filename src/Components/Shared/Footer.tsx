@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <div>
       <img src={footerImg} alt="Footer Img" className="w-full" />
-      <div className="flex flex-col md:flex-row gap-6 justify-between">
+      <div className="flex flex-col md:flex-row gap-6 justify-between items-end mb-4">
         {/* first column */}
         <div className="flex gap-2 flex-wrap">
           <button className="py-1 px-2 border-r-2 hover:bg-gray-300">

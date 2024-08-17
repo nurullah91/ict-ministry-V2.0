@@ -26,10 +26,18 @@ const Hero: React.FC = () => {
           <div className="relative">
             <img src={banner1} />
             <div className="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center hero-section">
-              <h1 className="text-3xl font-bold text-white heroTitle ">
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                className="text-xl md:text-3xl font-bold text-white heroTitle "
+              >
                 তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ
               </h1>
-              <h1 className="text-2xl font-semibold text-red-500 heroTitle">
+              <h1
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                className="md:text-2xl font-semibold text-red-500 heroTitle"
+              >
                 গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
               </h1>
             </div>
@@ -39,10 +47,18 @@ const Hero: React.FC = () => {
           <div className="relative">
             <img src={banner2} />
             <div className="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center hero-section">
-              <h1 className="text-3xl font-bold text-white heroTitle ">
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                className="text-xl md:text-3xl font-bold text-white heroTitle "
+              >
                 তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ
               </h1>
-              <h1 className="text-2xl font-semibold text-red-500 heroTitle">
+              <h1
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                className="md:text-2xl font-semibold text-red-500 heroTitle"
+              >
                 গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
               </h1>
             </div>
