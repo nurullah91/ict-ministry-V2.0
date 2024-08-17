@@ -15,7 +15,7 @@ const Services: React.FC = () => {
             key={index}
             data-aos={index % 2 === 1 ? "fade-up-right" : "fade-up-left"}
             data-aos-duration="1000"
-            className=" rounded border-2 border-green-300 hover:border-red-500 transition-all duration-500 py-4 shadow-lg relative overflow-hidden group"
+            className=" rounded border-2 border-green-300 hover:border-red-500 transition-all duration-500 py-4 shadow-lg relative overflow-hidden group serviceCard"
           >
             <img
               src={item.image}
@@ -39,7 +39,7 @@ const Services: React.FC = () => {
                   </div>
                 ))}
               </div>
-              <div className="w-full h-full bg-gradient-to-br from-green-200 via-green-200 to-red-200 absolute top-20 -z-10"></div>
+              <div className="w-full h-full bg-gradient-to-br from-green-200 via-green-200 to-red-200 absolute top-20 -z-10 serviceBg transition-colors duration-500"></div>
             </div>
           </div>
         ))}
