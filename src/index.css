@@ -38,3 +38,13 @@
 .nav-title:hover .title-line {
   width: 100px;
 }
+
+/* Responsive */
+@media (min-width: 1024px) {
+  .nav-title:hover .title-line {
+    width: 75%;
+  }
+  .lastItem {
+    left: -100px !important;
+  }
+}

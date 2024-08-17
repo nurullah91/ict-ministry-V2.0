@@ -285,7 +285,7 @@ const Navbar = () => {
                     : "grid-cols-1 lg:w-[250px]"
                 }
                  ${item.position === "6th" ? "lg:-left-[400px]" : "lg:left-0"}
-                 ${item.position === "7th" ? "lg:-left-[100px]" : ""}
+                 ${item.position === "7th" ? "lastItem" : ""}
                 `}
               >
                 {item.children?.map((child, index) => (
